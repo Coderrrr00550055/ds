@@ -6,4 +6,5 @@ rmiregistry
 javac SearchServer.java
 java SearchServer
 
+javac ClientRequest.java
 java ClientRequest
