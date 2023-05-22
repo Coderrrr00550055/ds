@@ -1,0 +1,6 @@
+Download MPJ link: https://sourceforge.net/projects/mpjexpress/files/debugger/
+
+export MPJ_HOME=/Users/kishorshivsharan/Downloads/DSAssignments-main/Assignment3/mpj/
+export PATH=$MPJ_HOME/bin:$PATH 
+javac -cp .:$MPJ_HOME/lib/mpj.jar ArraySumMPI.java 
+mpjrun.sh -np 4 ArraySumMPI
